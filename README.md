@@ -2,7 +2,7 @@
 
 ### Transaction(Hello World vs Break Solana Game)
 
-The difference beween hello world program and break game programe is that the break game has 3 parts(web client frontend, web server backend and on-chain solana program) while the hello world program olny has a web server backend and on-chain solana pgogram. It doesnt have a front end to interact with.
+The difference beween hello world program and break game program is that the break game has 3 parts(web client frontend, web server backend and on-chain solana program) while the hello world program olny has a web server backend and on-chain solana program. It doesnt have a front end to interact with.
 
 When it comes to creating a transaction, for hello world program, the transcation contains the connection, the instruction and the payer(generated keypair).But for the break example, there are lot of arguments passed into the function like trackingId, blockhash, bitId and many more. And with break example, after creating the transaction, it returns a promise with a response message and the serialize transaction will be send to web socket. Since the break program is more complex than hello world that just send hello data, there are also data that are being send to the server like encoded signature and subscription.
 
